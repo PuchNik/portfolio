@@ -1,7 +1,6 @@
 import './project.css'
 import project01 from "../../assets/projects/01.jpg";
 
-
 export default function Project() {
     return (
         <>
