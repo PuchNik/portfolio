@@ -1,14 +1,14 @@
 import './project.css'
-import project01 from "../../assets/projects/01.jpg";
 
-export default function Project() {
+// eslint-disable-next-line react/prop-types
+export default function Project({title, img}) {
     return (
         <>
             <li className="project">
                 <a href="../../Downloads/html-freelance-portfolio/project-page.html">
-                    <img src={project01} alt="Project img"
+                    <img src={img} alt={title}
                          className="project__img"/>
-                    <h3 className="project__title">Gaming streaming portal</h3>
+                    <h3 className="project__title">{title}</h3>
                 </a>
             </li>
         </>
