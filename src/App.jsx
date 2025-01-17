@@ -8,17 +8,19 @@ import Footer from "./components/footer/Footer.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import Project from "./pages/Project.jsx";
+import ScrollToTop from "./utils/scrollToTop.js";
 
 export default function App() {
 
   return (
       <div className="App">
         <Router>
+            <ScrollToTop />
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/projects" element={<Projects />}/>
-                <Route path="/project" element={<Project />}/>
+                <Route path="/project/:id" element={<Project />}/>
                 <Route path="/contacts" element={<Contacts />}/>
             </Routes>
             <Footer />
