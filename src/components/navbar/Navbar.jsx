@@ -14,7 +14,7 @@ export default function Navbar () {
                 <div className="nav-row">
 
                     <NavLink to="/" className="logo">
-                        <strong>Freelancer</strong>
+                        <strong>Regulatory assistant</strong>
                     </NavLink>
 
                     <BtnDarkMode />
@@ -23,19 +23,25 @@ export default function Navbar () {
 
                         <li className="nav-list__item">
                             <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
-                                Home
+                                Главная
                             </NavLink>
                         </li>
 
                         <li className="nav-list__item">
-                            <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
-                                Projects
+                            <NavLink to="/archive" className={({isActive}) => isActive ? activeLink : normalLink}>
+                                Архив
                             </NavLink>
                         </li>
 
                         <li className="nav-list__item">
-                            <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
-                                Contacts
+                            <NavLink to="/profile" className={({isActive}) => isActive ? activeLink : normalLink}>
+                                Профиль
+                            </NavLink>
+                        </li>
+
+                        <li className="nav-list__item">
+                            <NavLink to="/support" className={({isActive}) => isActive ? activeLink : normalLink}>
+                                Поддержка
                             </NavLink>
                         </li>
 

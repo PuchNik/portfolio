@@ -3,6 +3,7 @@
 .header {
     padding: 40px 0;
     min-height: 695px;
+    height: 92vh;
 
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@
 
 .header__title em {
     font-style: normal;
-    color: var(--accent);
+    color: aquamarine;
 }
 
 .header__text {

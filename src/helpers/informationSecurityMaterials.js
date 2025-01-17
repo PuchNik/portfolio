@@ -13,7 +13,7 @@ import project05Big from './../assets/projects/05-big.jpg'
 import project06Big from './../assets/projects/06-big.jpg'
 
 
-const projects = [
+const materialsIS = [
     {
         title: 'Gaming streaming portal',
         skills: 'React, Node.js, MongoDB',
@@ -55,4 +55,4 @@ const projects = [
     },
 ]
 
-export {projects}
+export {materialsIS}

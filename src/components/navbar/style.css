@@ -1,6 +1,7 @@
 /* Nav */
 
 .nav {
+    height: 8vh;
     padding: 20px 0;
     background-color: var(--nav-bg);
     border-bottom: 1px solid var(--nav-border);
@@ -62,5 +63,5 @@
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--accent);
+    background-color: aquamarine;
 }

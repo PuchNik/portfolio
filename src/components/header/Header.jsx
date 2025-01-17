@@ -5,13 +5,16 @@ export default function Header () {
         <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__title">
-                    <strong>Hi, my name is <em>Nik</em></strong><br/>
-                    a frontend developer
+                    <strong>Привет, <em>Nik</em></strong><br/>
+                    Рады, что ты присоединился
                 </h1>
                 <div className="header__text">
-                    <p>with passion for learning and creating.</p>
+                    <p>Данное приложение направлено для изучения и
+                        развития навывков специалистов по информационной
+                        безопасности в области нормативно правовых актов.
+                    </p>
                 </div>
-                <a href="#!" className="btn">Download CV</a>
+                <a href="#!" className="btn">Начать изучение</a>
             </div>
         </header>
     )

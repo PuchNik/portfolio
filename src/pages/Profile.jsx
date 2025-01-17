@@ -1,4 +1,4 @@
-export default function Contacts() {
+export default function Profile() {
     return (
         <main className="section">
             <div className="container">

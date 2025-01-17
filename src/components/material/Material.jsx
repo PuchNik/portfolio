@@ -2,7 +2,7 @@ import {NavLink} from "react-router-dom";
 import './project.css'
 
 // eslint-disable-next-line react/prop-types
-export default function Project({title, img, index}) {
+export default function Material({title, img, index}) {
     return (
         <NavLink to={`/project/${index}`}>
             <li className="project">
